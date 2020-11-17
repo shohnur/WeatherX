@@ -3,7 +3,6 @@ package uz.myweatherapp.core.di.module.network
 import android.util.Log
 import dagger.Module
 import dagger.Provides
-import okhttp3.HttpUrl.Companion.toHttpUrl
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

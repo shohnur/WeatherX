@@ -1,7 +1,9 @@
 package uz.myweatherapp.core.db
 
-import androidx.room.*
 import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
 import uz.myweatherapp.core.model.Data
 
 @Dao

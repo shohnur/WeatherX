@@ -2,7 +2,6 @@ package uz.myweatherapp.core.model.daily
 
 
 import com.google.gson.annotations.SerializedName
-import java.io.Serializable
 
 data class Daily(
     @SerializedName("clouds")

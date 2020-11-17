@@ -9,6 +9,6 @@ import uz.myweatherapp.ui.MainContract
 abstract class MainActivityModule {
 
     @Binds
-    abstract fun bindView(activity: MainActivity):MainContract.View
+    abstract fun bindView(activity: MainActivity): MainContract.View
 
 }
